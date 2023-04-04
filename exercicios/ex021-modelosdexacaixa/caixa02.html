@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        section{
+            background-color: rgba(53, 44, 44, 0.767);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgba(53, 44, 44, 0.767);
+            
+            
+           
+            
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+            
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgba(26, 7, 7, 0.151);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+        
+        .assunto{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: black;
+            font-size: 1.5em;
+            text-decoration: underline;
+            
+
+        }
+
+        .corinthians{
+            background-image: linear-gradient(45deg, black, white,black,white);
+            color: white;
+            cursor: pointer;
+            
+        }
+
+        .flamengo{
+            background-image: linear-gradient(45deg, red, black,red,black);
+            cursor: pointer;
+        }
+        .palmeiras{
+            background-image: linear-gradient(45deg, rgb(0, 230, 0),white,green,white);
+            cursor:pointer;
+        }
+
+        #bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+            
+            
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p class="assunto">Qual time você torce?</p>
+            <ul>
+                <li class="corinthians">Corinthians</li>
+                <li class="flamengo">Flamengo</li>
+                <li class="palmeiras">Palmeiras</li>
+                
+            </ul>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo itaque laboriosam eos, magnam tempore repellendus recusandae necessitatibus libero quasi delectus magni autem natus hic inventore voluptatem harum. Architecto, illo ea?</p>
+                <aside>
+                    <p>Artigo escrito  por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+        
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoEmVideo</p>
+    </footer>
+    <div id="bola"></div>
+    
+</body>
+</html>
